@@ -60,6 +60,13 @@ subprojects {
     }
 }
 
+project(':commons') {
+    dependencies {
+        api 'org.springframework:spring-context'
+        api 'org.springframework:spring-context-support'
+    }
+}
+
 project(":ecommerce") {
     apply plugin: 'org.springframework.boot'
 
