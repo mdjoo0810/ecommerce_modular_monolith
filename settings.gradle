@@ -1,2 +1,4 @@
 rootProject.name = 'ecommerce_modular_monolith'
 
+// Root Module
+include 'ecommerce'
